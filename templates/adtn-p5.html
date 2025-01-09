@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+
+</head>
+<body style="margin:0">
+    <header>
+        <h1 id="main-header">Addition</h1>
+    </header>
+    <main>
+        <section class="exercises" id="addition-exercise">
+            <label id="label-for-question-5">5. What's 10.5 + 5/2 + 0.53 + 1?</label>
+            <input id="input-for-question-5" name="question-3" required><br>
+            <a href="/adtn_4" style="text-decoration: none;">
+                <button id="previous-button">Previous</button>
+            </a>
+            <button id="submit-button">Check answer</button>
+            <button id="next-button">Done</button>
+        </section>
+        <section id="home-button">
+            <a href="/">
+                <img id="icon" src="{{url_for('images', filename='home.png')}}">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer_"></div>
+    </footer>
+
+    <hr>
+
+    <script src="{{url_for('scripts', filename='adtn-5.js')}}"></script>
+
+</body>
+</html>

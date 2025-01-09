@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!--Completed-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='home.css')}}">
+</head>
+
+
+<body><!--Completed-->
+    
+    <header>
+        <h1 id="main-header">Welcome to math experts!</h1>
+    </header>
+    
+    
+    <main>
+        <section class="navigation-bar">
+            <a class="navigation-bar-elements" id="exercises">Exercises</a>
+            <a class="navigation-bar-elements" id="about">About</a>
+            <a class="navigation-bar-elements" id="contact-us">Contact Us</a>
+        </section>
+    
+            <section class="container">
+                <div class="menu">
+                    <div>
+                        <a id="addition" href="/adtn_1">
+                            <h2 class="tests">Addition</h2>
+                        </a>
+                    </div>
+                        <div id="subtraction">
+                            <h2 class="tests">Subtraction</h2>
+                        </div>
+                            <div id="multiplication">
+                                <h2 class="tests">Multiplication</h2>
+                            </div>
+                    <div id="division">
+                        <h2 class="tests">Division</h2>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+</body>
+</html>
