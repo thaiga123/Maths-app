@@ -1,0 +1,71 @@
+#main-header{
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#label-for-question-1, #label-for-question-2, #label-for-question-3, #label-for-question-4, #label-for-question-5{
+    font-size: 30px;
+}
+
+#input-for-question-1, #input-for-question-2, #input-for-question-3, #input-for-question-4, #input-for-question-5{
+    font-size: 25px;
+    position: relative;
+    top: 0px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    color: orangered;
+}
+
+button{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+#submit-button:hover, #next-button:hover{
+    color: green;
+}
+
+#previous-button:hover{
+    color: tomato
+}
+
+#subtraction-exercise{
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+#home-button{
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+#icon{
+    background-color: white;
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.exercises{
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+#footer_{
+    background-color: darkslategrey;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    margin-top: 330px;
+    margin-bottom: 0
+}

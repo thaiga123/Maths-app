@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='multiplication.css')}}">
+
+</head>
+<body style="margin:0">
+    <header>
+        <h1 id="main-header">Multiplication</h1>
+    </header>
+    <main>
+        <section class="exercises" id="subtraction-exercise">
+            <label id="label-for-question-1">1. What's  x ?</label>
+            <input id="input-for-question-1" name="question-1" required><br>
+            <button id="submit-button">Check answer</button>
+        <a href="/multi_2">
+            <button id="next-button">Next</button>
+        </a>
+        </section>
+        <section id="home-button">
+            <a href="/">
+                <img id="icon" src="/images/home.png">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer_"></div>
+    </footer>
+
+    <script src="/javascript/subtraction.js"></script>
+
+</body>
+</html>

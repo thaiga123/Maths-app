@@ -46,47 +46,8 @@ body{
     color: red
 }
 
-#addition{
+#addition, #subtraction, #multiplication, #division{
     background: linear-gradient(to bottom,  darkslategrey, white);
-    height: 80px;
-    display: inline-block;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    padding-bottom: 50px;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    cursor: pointer
-}
-
-#subtraction{
-    background: linear-gradient(to bottom,  darkslategrey, white);
-    height: 80px;
-    display: inline-block;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    padding-bottom: 50px;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    cursor: pointer
-}
-
-#multiplication{
-    background: linear-gradient(to bottom,  darkslategrey, white);
-    height: 80px;
-    display: inline-block;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    padding-bottom: 50px;
-    border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    cursor: pointer
-}
-
-#division{
-    background: linear-gradient(to bottom, darkslategrey, white);
     height: 80px;
     display: inline-block;
     padding: 10px;

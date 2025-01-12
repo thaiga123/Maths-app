@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='subtraction.css')}}">
+
+</head>
+<body style="margin:0">
+    <header>
+        <h1 id="main-header">Subtraction</h1>
+    </header>
+    <main>
+        <section class="exercises" id="addition-exercise">
+            <label id="label-for-question-4">4. What's - ?</label>
+            <input id="input-for-question-4" name="question-3" required><br>
+            <a href="/sub_3" style="text-decoration: none;">
+                <button id="previous-button">Previous</button>
+            </a>
+            <button id="submit-button">Check answer</button>
+            <a href="/sub_5">
+                <button id="next-button">Next</button>
+            </a>
+        </section>
+        <section id="home-button">
+            <a href="/">
+                <img id="icon" src="{{url_for('images', filename='home.png')}}">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer_"></div>
+    </footer>
+
+    <hr>
+
+    <script src="{{url_for('scripts', filename='adtn-4.js')}}"></script>
+
+</body>
+</html>
