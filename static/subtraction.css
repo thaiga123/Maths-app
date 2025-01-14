@@ -73,3 +73,9 @@ button{
     margin-top: 330px;
     margin-bottom: 0
 }
+
+@media screen and (max-width: 480px) {
+    #footer{
+        padding-bottom: 130px
+    }
+}
