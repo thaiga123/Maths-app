@@ -8,6 +8,10 @@
     margin-bottom: 0
 }
 
+body{
+    margin:0;
+}
+
 #label-for-question-1, #label-for-question-2, #label-for-question-3, #label-for-question-4, #label-for-question-5{
     font-size: 30px;
 }
@@ -65,7 +69,7 @@ button{
     background-color: darkslategrey;
     padding-top: 50px;
     padding-left: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     margin-top: 330px;
     margin-bottom: 0
 }
