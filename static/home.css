@@ -58,9 +58,8 @@ body{
     background-color: darkslategrey;
     padding-top: 30px;
     padding-left: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 30vh;
     margin-top: 0;
-    margin-bottom: 0
 }
 
 #developer{

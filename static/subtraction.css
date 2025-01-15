@@ -69,13 +69,7 @@ button{
     background-color: darkslategrey;
     padding-top: 50px;
     padding-left: 15px;
-    padding-bottom: 80px;
     margin-top: 330px;
+    padding-bottom: 30vh;
     margin-bottom: 0
-}
-
-@media screen and (max-width: 780px) {
-    #footer{
-        padding-bottom: 130px
-    }
 }
