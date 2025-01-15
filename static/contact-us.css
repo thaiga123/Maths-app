@@ -1,0 +1,91 @@
+body{
+    font-size: 3vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: rgb(95, 95, 95);
+    color: rgb(209, 208, 208)
+}
+
+.container{
+    background-color: rgb(236, 230, 230);
+    padding-top: 40px;
+    padding-bottom: 500px;
+    margin-top: 0
+}
+
+#name-container, #email-container, #message-container{
+    padding: 5px 10px;
+}
+
+#email-container{
+    padding-left: 11px
+}
+
+input{
+    padding: 5px;
+    width: 46em;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+textarea{
+    padding: 10px;
+    width: 49.1em;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+}
+
+button{
+    width: 10em;
+    height: 2.5em;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    background-color: rgb(95, 95, 95);
+}
+
+@media screen and (max-width:1100px){
+    input{
+        padding: 5px;
+        width: 24em;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    textarea{
+        padding: 10px;
+        width: 26.9em;
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+    }
+}
+
+@media screen and (max-width: 679px){
+    button{
+        width: 10em;
+        height: 2.5em;
+        position: relative;
+        bottom: 10px;
+        top: 2px;
+        margin-bottom: 3px
+    }
+}
+
+@media screen and (max-width:545px) {
+    textarea{
+        padding: 10px;
+        width: 23.6em;
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+    }
+}

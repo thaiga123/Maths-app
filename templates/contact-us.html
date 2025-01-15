@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='contact-us.css')}}">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div class="container"> <!--Main container-->
+        <div class="container" id="name-container"><!--Name container-->
+            <label for="name">Name:</label>
+            <input name="name" type="text">
+        </div>
+
+        <div class="container" id="email-container">
+            <label for="email">Email:</label>
+            <input name="email" type="email">
+        </div><!--Email container-->
+
+        <div class="container" id="message-container"> <!--Message container-->
+            <label for="message">Message:</label><br>
+            <textarea name="message" rows="5"></textarea>
+            <button type="submit">Sent</button>
+        </div><!--Message container-->
+
+    </div> <!--Main container ends-->
+
+</body>
+</html>

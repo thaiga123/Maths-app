@@ -107,5 +107,12 @@ def div_4():
 def div_5():
     return render_template('div-p5.html')
 
+
+#Navigations
+
+@app.route("/contact_us")
+def contact_us():
+    return render_template('contact-us.html')
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
