@@ -1,150 +1,62 @@
-body{
-    font-size: 3vh;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 10px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1{
+.contact-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: red;
-    padding-top: 10px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    margin-bottom: 0;
-    background-color: rgb(95, 95, 95);
-    color: rgb(209, 208, 208)
+    margin-bottom: 20px;
 }
 
-.container{
-    border: 1px solid;
-    background-color: rgb(236, 230, 230)
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-#name-container, #email-container, #message-container{
-    padding: 5px 10px;
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
 }
 
-#email-container{
-    padding-left: 11px
-}
-
-input{
-    padding: 5px;
-    width: 46em;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-textarea{
+input, textarea {
     padding: 10px;
-    width: 49.1em;
-    font-size: 18px;
-    font-family: "Arial", sans-serif;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-button{
-    width: 10em;
-    height: 2.5em;
-    position: relative;
-    bottom: 10px;
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    background-color: #007BFF;
     color: white;
-    background-color: rgb(95, 95, 95);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
-@media screen and (max-width: 738px){
-    button{
-        width: 10em;
-        height: 2.5em;
-        position: relative;
-        bottom: 10px;
-        top: 2px;
-        margin-bottom: 3px
-    }
-}
-
-@media screen and (max-width: 1440px){
-    input{
-        width: 45.4em
-    }
-    textarea{
-        width: 50em
-    }
-}
-
-@media screen and (max-width: 1358px){
-    input{
-        width: 45.4em
-    }
-    textarea{
-        width: 47.6em
-    }
-}
-
-@media screen and (max-width: 1356px){
-    textarea{
-        width: 47.4em
-    }
-}
-
-@media screen and (max-width: 914px){
-    textarea{
-        width: 45em
-    }
-}
-
-@media screen and (max-width: 874px){
-    input{
-        width: 24.8em
-    }
-    textarea{
-        width: 30em
-    }
-}
-
-@media screen and (max-width: 800px){
-    input{
-        width: 24.3em
-    }
-    textarea{
-        width:23.9em
-    }
-}
-
-@media screen and (max-width: 430px){
-    input{
-        width: 15.5em
-    }
-    textarea{
-        width: 20.2em
-    }
-}
-
-@media screen and (max-width: 390px){
-    input{
-        width: 18.5em
-    }
-    textarea{
-        width: 18.1em
-    }
-}
-
-@media screen and (max-width: 320px){
-    input{
-        width: 14.8em
-    }
-    textarea{
-        width: 14.4em
-    }
-}
-
-@media screen and (max-width: 300px){
-    input{
-        width: 10em
-    }
-    textarea{
-        width: 10em
-    }
+button:hover {
+    background-color: #0056b3;
 }
