@@ -139,3 +139,12 @@ button{
         width: 14.4em
     }
 }
+
+@media screen and (max-width: 300px){
+    input{
+        width: 10em
+    }
+    textarea{
+        width: 10em
+    }
+}
